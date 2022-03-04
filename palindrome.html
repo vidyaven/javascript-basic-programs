@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        function palindrom(str){
+            var len=str.length
+
+            
+            for(var i=0;i<len;i++){
+                if(str[i]!==str[len-1-i])
+                {
+                  document.write("String is not a Palindrom")
+                }
+            }
+        
+document.write("String is Palindrom")
+        }
+     var str=prompt("enter the string")
+        var value=palindrom(str)
+        console.log(value);
+    </script>
+    <p id="demo"></p>
+</body>
+</html>

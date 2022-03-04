@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <p id="p4"></p>
+    <script>
+        var x=function(a,b){
+            return a*b
+        }
+        document.getElementById("p1").innerHTML =x(4,2)
+
+        var a=()=>{
+            return "hello world";
+        }
+            document.getElementById("p2").innerHTML=a();
+
+      var b=(x,y)=>x*y;
+document.getElementById("p3").innerHTML=b(8,2);
+       var v=()=>{
+           return "hello"
+       }
+       document.getElementById("p4").innerHTML=v()
+            </script>
+
+</body>
+</html>
